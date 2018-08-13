@@ -30,12 +30,12 @@ data () {
 
 		mounted() {
 
-			setTimeout(function(e) {
+		setTimeout(function(e) {
 			var $grid = $('.grid').masonry({
-  itemSelector: '.grid-item',
-  percentPosition: true,
-  columnWidth: '.grid-sizer'
-});
+				  itemSelector: '.grid-item',
+				  percentPosition: true,
+				  columnWidth: '.grid-sizer'
+				});
 		}, 200)
 
 		}

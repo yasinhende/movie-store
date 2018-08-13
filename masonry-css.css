@@ -1,0 +1,180 @@
+body {
+background-color: #2f3542;
+}
+#logo-brand {
+width: 100px;
+}
+.navbar img{
+width:20px;
+margin-left:10px;
+}
+#navbar {
+background-color: #ffffff;
+}
+#user-icon{
+margin-right: 10px;
+}
+#user {
+color: #2d3436;
+font-size: 12px;
+text-decoration:none;
+}
+#edit {
+margin-right: 20px;
+}
+#nav-right{
+margin-left: 245px;
+}
+#nav-center {
+margin-left: 250px;
+}
+.carousel-inner img {
+width: 100%;
+height: 100%;
+/*width:1500px;
+height:500px;*/
+}
+#FM {
+float: left;
+font-family: futura;
+font-size: 13px;
+margin-left: 4px;
+padding: 13px 0 0 0;
+}
+#search {
+float: right;
+font-family: futura;
+font-size: 15px;
+
+}
+#NR {
+text-align: center;
+font-family: futura;
+font-style: italic;
+font-size: 13px;
+padding: 15px 0 0 0;
+margin-right: 110px;
+}
+.icon  {
+width:20px;
+}
+/*#information {
+background-color: #57606f;
+opacity: 0.8;
+filter: alpha(opacity=90);
+}*/
+
+#icon-search img{
+    width: 20px;
+}
+#information p{
+color : white;
+font-size: 12px;
+padding-top: 10px;
+}
+#sub-info {
+color: #eb4d4b;
+}
+#konten {
+background-color:#ffffff;
+width: 77%;
+background-color: #ffffff;
+padding-top: 10px;
+}
+.cover img {
+width: 250px;
+float: left;
+}
+#iklan {
+background: url(asset/img/movie22.jpg) no-repeat center top;
+background-size: cover;
+width: 100%;
+height: 450px;
+/*height: 400px;*/
+position: relative;
+margin: 0 auto;
+
+}
+/*.container #information {
+background: rgba(0, 0, 0, 0.5);  Black background with transparency 
+color: #f1f1f1;
+width: 100%;
+padding: 5px;
+}*/
+.container #information {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+}
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: #c0392b;
+color: #fff;
+border-radius: 6px;
+padding: 5px 0;
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+.square{
+object-fit: cover;
+width:275px;
+height:270px;
+}
+.poster{
+object-fit: cover;
+width:180px;
+height:270px;
+}
+.landscape{
+object-fit: cover;
+height:270px;
+width: 100%;
+}
+#parent {
+position: relative;
+}
+#mov img:hover {
+
+border: 4px solid #c0392b;
+border-radius: 2%;
+}
+#mov img {
+border-radius: 2%;
+}
+#dld img {
+position: absolute;
+right: 2%;
+top: 2%;
+float: right;
+width: 6%;
+margin-right: 6px;
+margin-top: 5px;
+}
+#like img {
+position: absolute;
+left: 2%;
+top: 2%;
+float: right;
+width: 6%;
+margin-top: 5px;
+margin-left: 6px;
+}
+/*.dld img:hover {
+background-color: #c44569;
+border-radius: 2%;
+width: 10%;
+}
+*/
+
+.information-red {
+    color: #c0392b;
+    font-size: 12px;
+}

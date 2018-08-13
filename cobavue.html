@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="masonry.css">
+    <link rel="stylesheet" type="text/css" href="masonry-css.css">
+    <link rel="stylesheet" type="text/css" href="tooltip.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      
+      <nav class="navbar navbar-expand-sm" id="navbar">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#"><img src="asset/img/logo.png" alt="logo" id="logo-brand"></a>
+        
+        <!-- Links -->
+        <ul class="nav navbar-nav" id="nav-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Movies">
+              <img src="asset/img/nav-movie5.png">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Movies">
+              <img src="asset/img/nav-movie2.png">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Movies">
+              <img src="asset/img/nav-movie3.png">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Movies">
+              <img src="asset/img/nav-movie4.png">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Movies">
+              <img src="asset/img/nav-movie5.png">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Movies">
+              <img src="asset/img/nav-movie3.png">
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav" id="nav-right">
+          <li><a href="#" id="user"> <img src="asset/img/user.png" id="user-icon">Caroline Darwin</a></li>
+          <li><a href="#"> <img src="asset/img/edit.png" id="edit"></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container" >
+      <div id="iklan" >
+        <div id="information" >
+          <div class="row">
+            <div class="col-sm-2">
+              <p>PUBLISHED
+                <span class="information-red">FEB 20, 2014</span></p>
+              </div>
+              <div class="col-sm-2">
+                <p>UPDATED
+                  <span class="information-red">FEB 20, 2014</span></p>
+                </div>
+                <div class="col-sm-2">
+                  <p>RATING
+                    <span class="information-red">FEB 20, 2014</span></p>
+                  </div>
+                  <div class="col-sm-3">
+                    <p></p>
+                  </div>
+                  <div class="col-sm-1">
+                    <p><img src="asset/img/love.png" class="icon">2,548</p>
+                  </div>
+                  <div class="col-sm-1">
+                    <p><img src="asset/img/chat.png" class="icon">21</p>
+                  </div>
+                  <div class="col-sm-1">
+                    <p><img src="asset/img/unduh.png" class="icon">564</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="konten">
+          <div class="row" id="konten-isi">
+            <div class="col-sm-4">
+              <p id="FM">FEATURED MOVIES</p>
+            </div>
+            
+            <div class="col-sm-5">
+              <p id="NR">New Realised / Trailers & Clips</p>
+            </div>
+            <div class="col-sm-3">
+              <!-- <form id="search">
+                <input type="text" placeholder="Search" name="search">
+                <button type="submit">
+                <img src="asset/img/magnifying_glass.png" class="icon">
+                </button>
+              </form> -->
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                  <button class="btn btn-danger" type="submit" id="search">
+                  <img class="icon" src="asset/img/magnifying_glass.png" >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- VUE ARRAY -->
+          <div id="root">
+            <movielist> </movielist>
+          </div>
+          
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+          <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+          <script type="text/javascript" src="masonry.pkgd.js"></script>
+          <script src="main.js"></script>
+          <script>
+          $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+          });
+          </script>
+        </body>
+      </html>
